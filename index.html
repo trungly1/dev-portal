@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How To Create A Lightspeed K-Series API Client</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="int.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        .scribe-title {
+            font-size: 2.5em;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .scribe-author {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-bottom: 40px;
+        }
+
+        .scribe-step {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .scribe-step-text {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        .scribe-screenshot-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .scribe-screenshot {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .scribe-footer {
+            font-size: 0.9em;
+            color: #6c757d;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="scribe-title">How To Create A Lightspeed K-Series API Client</h1>
+    <p class="scribe-author">
+        <b>
+            <a href="https://scribehow.com/shared/How_To_Create_A_Lightspeed_K-Series_API_Client__2ZDplvHFR76flMC7uhzKNw" target="_blank">
+                Created by Trung Ly with Scribe
+            </a>
+        </b>
+    </p>
+
+    <!-- Step 1 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text">
+            <strong>1.</strong> Navigate to 
+            <a href="https://developer-portal.lsk-demo.app/">https://developer-portal.lsk-demo.app/</a> (staging) or 
+            <a href="https://developer-portal.lsk-prod.app/">https://developer-portal.lsk-prod.app/</a> (production) to create a new account.
+        </p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 1 Screenshot" src="images/1727901947954.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>2.</strong> Click "Register".</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 2 Screenshot" src="images/1727902064434.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>3.</strong> Complete the registration form, ensuring all fields are filled, and provide a valid email address.</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 3 Screenshot" src="images/1727902061807.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 4 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>4.</strong> Click "Register" again.</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 4 Screenshot" src="images/1727901967609.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 5 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>5.</strong> Wait for the email verification. Click the "Link to email address verification" in the email.</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 5 Screenshot" src="images/1727901961544.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 6 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>6.</strong> Click "Request Access" and wait for approval.</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 6 Screenshot" src="images/1727901973594.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 7 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>7.</strong> After approval, click "Submit request".</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 7 Screenshot" src="images/1727901976228.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 8 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>8.</strong> You will receive a Slack notification for internal review.</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 8 Screenshot" src="images/1727901979132.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 9 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>9.</strong> [INTERNAL] Click "Access Request", based on the partner developer email.</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 9 Screenshot" src="images/1727901981986.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 10 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>10.</strong> [INTERNAL] Review the request to ensure it complies with internal requirements. Once verified, approve the request.</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 10 Screenshot" src="images/1727901985773.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 11 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>11.</strong> [INTERNAL] Click "Approve request".</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 11 Screenshot" src="images/1727901988150.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 12 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>12.</strong> Once approved, the user will receive an email saying, "You now have access to the Lightspeed Developer Portal!".</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 12 Screenshot" src="images/1727901991056.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 13 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>13.</strong> The status should update to [[Provisioned]]. If the user has issues submitting requests, ask them to sign out and sign back in.</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 13 Screenshot" src="images/1727901992835.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 14 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>14.</strong> If users see [[Request in review]], instruct them to sign out or clear their cache.</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 14 Screenshot" src="images/1727901995263.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 15 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>15.</strong> Click “Logout,” then sign back in.</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 15 Screenshot" src="images/1727901997449.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 16 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>16.</strong> After logging back in, the “Go to requests” option should appear.</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 16 Screenshot" src="images/1727902047892.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 17 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>17.</strong> Click [[New request]] to create a new API client.</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 17 Screenshot" src="images/1727901999416.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 18 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>18.</strong> Select the relevant request type.</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 18 Screenshot" src="images/1727902001721.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 19 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>19.</strong> Complete the form to submit a new API client request.</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 19 Screenshot" src="images/1727902003798.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 20 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>20.</strong> Scopes</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 20 Screenshot" src="images/1727902006137.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 21 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>21.</strong> Click "Create request".</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 21 Screenshot" src="images/1727902041347.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 22 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>22.</strong> The internal team will be notified via Slack. Navigate to the Developer Portal &gt; Requests &gt; Look for the request based on the developer email.</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 22 Screenshot" src="images/1727902008365.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 23 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>23.</strong> [INTERNAL] Review the information carefully and click [[Approve request]].</p>
+        <ul>
+            <li>Only grant scopes required for the integration.</li>
+            <li>Ensure redirect URIs do not contain Lightspeed domain.</li>
+            <li>No profanity in display name.</li>
+        </ul>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 23 Screenshot" src="images/1727902011666.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 24 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>24.</strong> [INTERNAL] An email will be sent with client credentials.</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 24 Screenshot" src="images/1727902014374.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 25 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>25.</strong> Click "Your Lightspeed K-series API client has been created."</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 25 Screenshot" src="images/1727902017077.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 26 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>26.</strong> Click "<a href="https://ots.lightspeed.app/#/s/c8f1537a-abed-4da4-a6c2-fb9f3ab46474/6a491d731c7488854e749dbd290e8392c3a2258bef75a1c50d9066c4fe007c34">onetimesecretlink</a>".</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 26 Screenshot" src="images/1727902020986.jpeg">
+        </p>
+    </div>
+
+    <!-- Step 27 -->
+    <div class="scribe-step">
+        <p class="scribe-step-text"><strong>27.</strong> Only the API <strong>clientId</strong> and <strong>clientSecret</strong> will be sent.</p>
+        <p class="scribe-screenshot-container">
+            <img class="scribe-screenshot" alt="Step 27 Screenshot" src="https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-09-03/dd303b68-68ed-47a7-82c6-1eac82bb26d7/user_cropped_screenshot.jpeg">
+        </p>
+    </div>
+
+    <!-- Footer -->
+
+</body>
+</html>
